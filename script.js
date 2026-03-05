@@ -8,15 +8,23 @@ menuToggle.addEventListener("click", () => {
 
 // TESTIMONIALS SLIDER
 const testimonials = document.querySelectorAll(".testimonial");
-let testimonialIndex = 0;
+let index = 0;
 
-function showTestimonial() {
-  testimonials.forEach(t => t.classList.remove("active"));
-  testimonials[testimonialIndex].classList.add("active");
-  testimonialIndex = (testimonialIndex + 1) % testimonials.length;
+function showNextTestimonial(){
+
+testimonials[index].classList.remove("active");
+
+index++;
+
+if(index >= testimonials.length){
+index = 0;
 }
 
-setInterval(showTestimonial, 4000); // changes every 4 seconds
+testimonials[index].classList.add("active");
+
+}
+
+setInterval(showNextTestimonial, 8000); // changes every 4 seconds
 
 // LIGHTBOX
 const galleryItems = document.querySelectorAll(".gallery-item");
