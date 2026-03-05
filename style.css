@@ -35,7 +35,7 @@ nav a{
 
 .hero{
 height:90vh;
-background:url("https://images.unsplash.com/photo-1604908176997-431fa3e2d61b") center/cover no-repeat;
+background:url("https://images.unsplash.com/photo-1551218808-94e220e084d2?q=80&w=2070&auto=format&fit=crop") center/cover no-repeat; display:flex; align-items:center; justify-content:center; position:relative; color:white; text-align:center; }
 display:flex;
 align-items:center;
 justify-content:center;
