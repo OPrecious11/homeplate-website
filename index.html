@@ -1,183 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homeplates Catering | Fresh Meals Delivered</title>
+  <meta name="description" content="Homeplates Catering offers delicious home-style meals delivered fresh to your doorstep. Order today and enjoy quality catering services.">
+  <meta name="keywords" content="Homeplates catering, catering services, food delivery, home meals, Nigerian catering">
+  <meta name="author" content="Homeplates Catering">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <head>
-    
-    <title>Homeplates Catering | Fresh Meals Delivered</title>
-    <meta name="description" content="Homeplates Catering offers delicious home-style meals delivered fresh to your doorstep. Order today and enjoy quality catering services.">
-    <meta name="keywords" content="Homeplates catering, catering services, food delivery, home meals, Nigerian catering">
-    <meta name="author" content="Homeplates Catering">
-
-  </head>
-    
-  <body>
-  <nav class="navbar">
-
+<!-- NAVBAR -->
+<nav class="navbar">
   <h2 class="logo">Homeplate</h2>
-
+  <div class="menu-toggle" id="menu-toggle">☰</div>
   <div class="nav-links" id="nav-links">
     <a href="#home">Home</a>
     <a href="#services">Services</a>
     <a href="#gallery">Gallery</a>
     <a href="#contact">Contact</a>
   </div>
-  
-   <div class="menu-toggle" id="menu-toggle">
-    ☰
-  </div>
-  
 </nav>
 
+<!-- HERO -->
 <section class="hero" id="home">
   <div class="hero-content">
     <h1>Homeplate Catering</h1>
-    <p>
-      Bringing warm, home-style flavours to your events,
-      offices and special moments.
-    </p>
+    <p>Bringing warm, home-style flavours to your events, offices and special moments.</p>
     <div class="hero-buttons">
       <a href="#contact" class="btn-primary">Book Catering</a>
       <a href="#gallery" class="btn-secondary">View Our Food</a>
     </div>
   </div>
 </section>
-    
-<section class="services" id="services">
-  <h2>Our Services</h2>
 
-  <div class="service-grid">
-
-    <div class="service-card">
-      <h3>Private Catering</h3>
-      <p>Perfect for birthdays, house parties, and special gatherings.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Corporate Events</h3>
-      <p>Professional catering for meetings, launches, and company events.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Meal Delivery</h3>
-      <p>Freshly prepared home-style meals delivered to your doorstep.</p>
-    </div>
-
+<!-- GALLERY -->
+<section id="gallery" class="gallery">
+  <h2>Our Delicious Creations</h2>
+  <div class="gallery-container" id="gallery-container">
+    <img src="https://images.unsplash.com/photo-1604908176997-431fa3e2d61b" alt="Dish 1" class="gallery-item">
+    <img src="https://images.unsplash.com/photo-1604908176997-431fa3e2d61b" alt="Dish 2" class="gallery-item">
+    <img src="https://images.unsplash.com/photo-1604908176997-431fa3e2d61b" alt="Dish 3" class="gallery-item">
   </div>
 </section>
-<section class="gallery" id="gallery">
-  <h2>Our Dishes</h2>
 
-  <div class="slider">
-    <div class="slide-track">
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" id="lightbox-img">
+</div>
 
-      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
-      <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1">
-      <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe">
-      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38">
-      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
-      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
-
-      <!-- duplicate images for smooth looping -->
-
-      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
-      <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1">
-      <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe">
-      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38">
-      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
-      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
-
-    </div>
-  </div>
-</section>
+<!-- TESTIMONIALS -->
 <section class="testimonials">
-
-  <h2>What Our Clients Say</h2>
-
-  <div class="testimonial-slider">
-
-    <div class="testimonial-card">
-      <p>"Homeplate catered our family celebration and the food was absolutely incredible."</p>
-      <h4>— Sarah Johnson</h4>
-    </div>
-
-    <div class="testimonial-card">
-      <p>"Professional service, amazing flavors, and beautifully presented meals."</p>
-      <h4>— David Williams</h4>
-    </div>
-
-    <div class="testimonial-card">
-      <p>"The best catering experience we've had. Everything arrived on time."</p>
-      <h4>— Anita Okafor</h4>
-    </div>
-
+  <h2>What Clients Say</h2>
+  <div class="testimonial-container" id="testimonial-container">
+    <div class="testimonial active">"Amazing food and service! Highly recommend." - Client A</div>
+    <div class="testimonial">"Homeplate made our corporate lunch unforgettable!" - Client B</div>
+    <div class="testimonial">"Fresh, delicious meals every time!" - Client C</div>
   </div>
-
 </section>
-<section class="booking" id="contact">
-  <h2>Book Our Catering</h2>
-  <p>Planning an event or need meals delivered? Send us a request.</p>
 
-  <form class="booking-form">
-
-    <input type="text" placeholder="Your Name" required>
-
-    <input type="email" placeholder="Your Email" required>
-
-    <select>
-      <option>Select Service</option>
-      <option>Private Catering</option>
-      <option>Corporate Event</option>
-      <option>Meal Delivery</option>
-    </select>
-
-    <textarea placeholder="Tell us about your event"></textarea>
-
-    <button type="submit">Send Request</button>
-
-  </form>
+<!-- CONTACT / CTA -->
+<section id="contact" class="contact">
+  <h2>Book Your Order</h2>
+  <p>Get in touch via WhatsApp for your catering orders!</p>
 </section>
-<footer class="footer">
-  <div class="footer-container">
 
-    <div class="footer-brand">
-      <h3>Homeplate</h3>
-      <p>Comfort food crafted with care. Catering memorable moments for homes and businesses.</p>
-    </div>
-
-    <div class="footer-links">
-      <h4>Quick Links</h4>
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">Gallery</a>
-      <a href="#">Contact</a>
-    </div>
-
-    <div class="footer-contact">
-      <h4>Contact</h4>
-      <p>Email: mudiadiana@gmail.com</p>
-      <p>Phone: +234 808 416 5552</p>
-      <p>Lagos, Nigeria</p>
-    </div>
-
-  </div>
-
+<!-- FOOTER -->
 <footer class="footer">
   <p>© 2026 Homeplates Catering. All rights reserved.</p>
   <p>Fresh meals prepared with love.</p>
 </footer>
 
-<div class="lightbox" id="lightbox">
-  <span class="close">&times;</span>
-  <img class="lightbox-img" id="lightbox-img">
-</div>
-    <script  src="./script.js"></script>
-    
+<!-- WHATSAPP ORDER BUTTON -->
 <a href="https://wa.me/2349167656153?text=Hello%20Homeplates%20Catering%2C%20I%20would%20like%20to%20place%20an%20order." 
-class="whatsapp-button" 
-target="_blank">
+   class="whatsapp-button" target="_blank">
     Order on WhatsApp
 </a>
-    
-  </body>
-  
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
 </html>
