@@ -237,3 +237,8 @@ display:block;
     display:flex;
   }
 }
+
+#contact{
+text-align:center;
+margin-top:80px;
+}
