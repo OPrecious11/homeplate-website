@@ -106,17 +106,35 @@ section{
 
 /* GALLERY */
 .gallery-container{
-  display:flex;
-  gap:15px;
-  overflow-x:auto;
-  scroll-behavior:smooth;
+display:flex;
+gap:20px;
+overflow:hidden;
+width:100%;
 }
 
 .gallery-item{
-  flex:0 0 auto;
-  width:300px;
-  border-radius:8px;
-  cursor:pointer;
+width:300px;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+animation:scrollGallery 20s linear infinite;
+}
+
+@keyframes scrollGallery{
+
+0%{
+transform:translateX(0);
+}
+
+100%{
+transform:translateX(-100%);
+}
+
+}
+
+/*SECTION*/
+section{
+padding:80px 10%;
 }
 
 /* LIGHTBOX */
