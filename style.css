@@ -166,23 +166,20 @@ padding:80px 10%;
 }
 
 /* TESTIMONIALS */
-.testimonial-container{
-  position:relative;
-  overflow:hidden;
-  max-width:700px;
-  margin:20px auto 0 auto;
-  min-height:80px;
+.testimonials{
+text-align:center;
 }
 
 .testimonial{
-  display:none;
-  text-align:center;
-  font-style:italic;
+display:none;
+font-style:italic;
+margin-top:20px;
 }
 
 .testimonial.active{
-  display:block;
+display:block;
 }
+
 
 /* FOOTER */
 .footer{
